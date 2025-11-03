@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ's | Samvidhan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="faq.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Samvidhan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Navigation items will be inserted by navbar.js -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container my-5">
+        <div class="faq-section">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <p class="text-center mb-5">Find answers to common questions about our Parliament Question Management Portal</p>
+
+            <div class="accordion" id="faqAccordion">
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                            How do I submit a question to Parliament?
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            To submit a question, first login to your account. Then navigate to the dashboard and click on "Upload Question". Fill out the question form with your query, select the relevant department, and attach any supporting documents if needed. Once submitted, you can track the status of your question from the dashboard.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                            How long does it take to get a response?
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            The response time varies depending on the complexity of the question and the department's current workload. Typically, you can expect an initial response within 5-7 working days. You can always check the status of your question in real-time through your dashboard.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                            What file formats are supported for attachments?
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Our system supports the following file formats for attachments:
+                            <ul>
+                                <li>PDF documents (.pdf)</li>
+                                <li>Word documents (.doc, .docx)</li>
+                                <li>Image files (.jpg, .png)</li>
+                                <li>Text files (.txt)</li>
+                            </ul>
+                            The maximum file size allowed is 10MB per attachment.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                            Can I modify a submitted question?
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Once a question is submitted, it cannot be modified directly. However, if you need to make changes to a pending question, please contact the admin through the support system. For questions that have already been processed or answered, you'll need to submit a new question with the updated information.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5 class="mb-3">About Samvidhan</h5>
+          <p>A comprehensive platform for managing parliamentary queries efficiently. Streamlining the process of submitting, tracking, and resolving parliamentary questions.</p>
+        </div>
+        
+        <div class="col-md-4 mb-3">
+          <h5 class="mb-3">Follow Us</h5>
+          <div class="social-icons">
+            <a href="https://twitter.com/" class="text-white me-3" target="_blank"><i class="bi bi-twitter fs-4"></i></a>
+            <a href="https://www.linkedin.com/in/akshat-jain-117479313/" class="text-white me-3" target="_blank"><i class="bi bi-linkedin fs-4"></i></a>
+            <a href="https://github.com/Akshat-006" class="text-white me-3" target="_blank"><i class="bi bi-github fs-4"></i></a>
+            <a href="https://www.instagram.com/_akshat_06jain/" class="text-white" target="_blank"><i class="bi bi-instagram fs-4"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-3">
+          <h5 class="mb-3">Contact Us</h5>
+          <p><i class="bi bi-envelope me-2"></i><a href="mailto:akshat5pjr@gmail.com" class="text-white text-decoration-none">akshat5pjr@gmail.com</a></p>
+          <p><i class="bi bi-telephone me-2"></i>+91-1111111111</p>
+        </div>
+      </div>
+
+      <hr class="bg-white" />
+      <p class="text-center mb-0">Samvidhan &copy; 2025 All rights reserved.</p>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.card{
+    border: 2px solid grey;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    padding: 25px;
+    border-radius: 35px;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card.mb-3{
+    border: 2px solid grey;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    padding: 25px;
+    border-radius: 35px;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
