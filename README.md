@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# project
-
-=======
 # Samvidhan
 #### Parliament Question Management Poortal
 
@@ -24,5 +20,4 @@ This project is a web portal for managing parliament questions, including user a
 3. Open static pages from `frontend/`
 
 ---
-Replace placeholder content as you build out features.
->>>>>>> 3d44e12a68838a373de3262bf3bd63c03c09456c
+
