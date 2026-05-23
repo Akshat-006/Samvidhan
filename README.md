@@ -1,5 +1,5 @@
 # Samvidhan
-#### Parliament Question Management Poortal
+#### Parliament Question Management Portal
 
 This project is a web portal for managing parliament questions, including user authentication, question uploads, status tracking, and department management.
 
