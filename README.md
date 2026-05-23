@@ -1,6 +1,7 @@
 # Samvidhan
 #### Parliament Question Management Portal
 
+Online Query solving system designed for Citizens and the Member of Parliament officials.
 This project is a web portal for managing parliament questions, including user authentication, question uploads, status tracking, and department management.
 
 ## Structure
